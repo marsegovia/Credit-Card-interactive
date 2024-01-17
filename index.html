@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  
+  <title>Frontend Mentor | Interactive card details form</title>
+
+</head>
+<body>
+
+  <section class="Card">
+    <div class="Col1">
+        <img src="images/bg-card-front.png"></img>
+        <div class="Card_info">
+            <p id="Card_Number">0000 0000 0000 0000</p>
+            <div class="Card_dateName">
+                <p id="Card-name">Martin Sebastian Segovia</p>
+                <p id="Card-date">
+                <span id="Card-month">00</span>/<span id="Card-year">00</span>
+                </p>
+            </div>
+        </div>
+        <br></br>
+        <img id="img2" src="images/bg-card-back.png"></img>
+        <p class="Card_dataName2" id="Card-cvc">000</p>
+
+    </div>
+
+    <form class="Form" id="form">
+        <label>Nombre y Apellido</label>
+        <input placeholder="Ej: Martin Sebastian Segovia" id="inp-name" class="input" required></input>
+        <br></br>
+
+        <label>Numero de Tarjeta</label>
+        <input placeholder="Ej: 1234 5678 1234 5678" id="inp-number" class="input" maxlength="19" required></input>
+        <br></br>
+
+        <div class="div">
+        <section class="Form2">
+                <label style= "margin-right: 20px">Expiracion</label>
+            <div class="Date">
+                <input class="Month" type="text" placeholder="Mes" id="inp-month" maxlength="2" required></input>
+                <input class="Year" type="text" placeholder="Año" id="inp-year" maxlength="2" required></input>
+            </div>
+        </section>
+
+        <section class="Form3">
+        <label style="margin-left: 10px;">CVC</label>
+            <div class="Date2">
+                <input class="CVC" type="text" placeholder="Ej: 123" id="inp-cvc" maxlength="3" required></input>
+            </div>
+        </section>
+        </div>
+            <button class="Confirm" type="submit">Confirmar</button>
+    </form>
+
+    <div class="gracias disabled" id="Ty">
+      <img src="images/icon-complete.svg" alt="">
+      <p class="gracias_titulo">Gracias!</p>
+      <p class="gracias_text">Hemos agregado los detalles de su tarjeta</p>
+      <button class="boton_cont" id="continue">Continuar</button>
+  </div>
+  
+</section>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cleave.js/1.0.2/cleave.min.js" integrity="sha512-SvgzybymTn9KvnNGu0HxXiGoNeOi0TTK7viiG0EGn2Qbeu/NFi3JdWrJs2JHiGA1Lph+dxiDv5F9gDlcgBzjfA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./funciones.js"></script>
+</body>
+</html>

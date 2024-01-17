@@ -1,0 +1,196 @@
+.Form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 300px;
+    text-transform: uppercase;
+}
+
+.Form2{
+    display: flex;
+    flex-direction: column;
+}
+
+.Form3{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.Form label{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #311A41;
+}
+
+.Form input{
+    border-radius: .5rem;
+    height: 25px;
+    border: 1px solid lightgrey;
+    padding: .75rem;
+    font-size: 18px;
+}
+
+.Form input::placeholder{
+    color: lightgray;
+}
+
+.Month{
+    width: 50px;
+    margin-right: 10px;
+}
+
+.Year{
+    width: 50px;
+}
+
+.CVC{
+    margin-left: 10px;
+    width: 120px;
+}
+
+.Date{
+    display: flex;
+    flex-direction: row;
+}
+
+.Date2{
+    display: flex;
+    flex-direction: row;
+}
+
+.Card{
+    display: flex;
+}
+
+.img_fav{
+    height: 30px;
+}
+
+.Card_info{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: -200px;
+    font-size: 30px;
+    color: white;
+}
+
+.Card_dateName{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-left: 90px;
+    margin-right: -40px;
+    margin-top: -25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.Card_dataName2{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    color: white;
+    font-size: 20px;
+    margin-left: 600px;
+    margin-top: -155px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+#Card_Number{
+    margin-top: 60px;
+    margin-left: 75px;
+    font-size: 36px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.Col1{
+    background-image: url('images/bg-main-desktop.png');
+    width: 500px;
+    height: 800px;
+    margin-top: -10px;
+    margin-left: -20px;
+    margin-bottom: -30px;   
+    text-transform: uppercase;
+    background-repeat: no-repeat;
+}
+
+.Col1 img{
+    margin-top: 100px;
+    margin-left: 60px;
+    width: 100%;
+}
+
+
+.Confirm{
+    margin-top: 40px;
+    height: 45px;
+    background-color: #311A41;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+
+.div{
+    display: flex;
+    flex-direction: row;
+}
+
+
+#img2{
+    margin-top: 30px;
+    margin-left: 200px;
+}
+
+.disabled{
+    display: none;
+}
+
+.gracias{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-top: 200px;
+}
+
+.gracias_titulo{
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.gracias_text{
+    margin-top: -10px;
+    color: lightgrey;
+    letter-spacing: 1px;
+    font-size: 1rem;
+}
+
+.gracias img{
+    height: 80px;
+    width: 80px;
+}
+
+.boton_cont{
+    height: 45px;
+    width: 270px;
+    background-color: #311A41;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
